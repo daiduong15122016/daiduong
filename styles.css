@@ -8,10 +8,10 @@ main{
     text-align: center;
 }
 footer p{
-    color: brown;
+    color: rgb(218, 201, 201);
     text-align: center;
 }
 footer{
-    background-color: rgb(24, 10, 23);
+    background-color: rgb(112, 172, 154);
     margin: 20px;
 }
