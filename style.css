@@ -109,6 +109,31 @@ body {
     transition: all 0.3s ease;
 }
 
+
+
+input {
+    display: none;
+}
+
+label {
+    font-size: 2.6rem;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.1s ease;
+}
+
+input:checked+label {
+    color: #ff3b5c;
+    transform: scale(1.1);
+}
+
+input:active {
+    transform: scale(.9);
+}
+
+
+
+
 /* Hero Section */
 .hero-section {
     background: linear-gradient(135deg, #D9EEE1 0%, #FFF4E6 100%);
